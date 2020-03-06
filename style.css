@@ -1,0 +1,39 @@
+main{
+    width: 50%;
+    margin: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+table{
+    justify-content: space-evenly;
+    background-color: aqua;
+    width: 100%;
+    text-align: left;
+}
+td{
+    word-wrap: break-word;
+    max-width: 3rem;
+}
+.delete{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+.error{
+    background-color: red;
+    color: white;
+}
+.success{
+    background-color: green;
+    color: white;
+}
+@media (max-width: 425px){
+    main{
+        width: auto;
+    }
+    td{
+        max-width: 1rem;
+    }
+}
